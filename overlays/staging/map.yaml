@@ -10,5 +10,5 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: the-deployment
-data:
+spec:
   replicas: 4
